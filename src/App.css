@@ -1,5 +1,56 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 .App {
   text-align: center;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img[alt='logo'] {
+  padding-bottom: 50px;
+}
+
+img[alt='logo-graphic'] {
+  width: 35px;
+  height: 30px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+div {
+  border: 1px solid blue;
+}
+
+div[id="root"] {
+  min-height: 100%;
+}
+div[id="main"] {
+  height:100vh;
+}
+
+div.top {
+  /*padding-top: 50px ;*/
+  text-align: center;
+  height: 25vh;
+  width: auto;
+}
+
+div.middle {
+  height: 58vh;
+  width: auto;
+}
+
+
+div.bottom {
+  height: 10vh;
+  width: auto;
 }
 
 .App-logo {
