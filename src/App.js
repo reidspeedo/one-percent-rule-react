@@ -13,11 +13,11 @@ class onePercent extends React.Component {
                 <ZipCodeInput></ZipCodeInput>
             </div>
             <div class="middle">
-                <div class="urls"></div>
-                <div class="map"></div>
-                <div class="cases">
-                    <div class="best-case"></div>
-                    <div className="worst-case"></div>
+                <div id="middle" class="urls"></div>
+                <div id="middle" class="map"></div>
+                <div id="middle" class="cases">
+                    <div id="cases" class="best-case"></div>
+                    <div id="cases" className="worst-case"></div>
                 </div>
             </div>
             <div class="bottom">

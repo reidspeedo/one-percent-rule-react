@@ -1,3 +1,4 @@
+/*Main CSS*/
 html, body {
   height: 100%;
   width: 100%;
@@ -31,21 +32,62 @@ div {
 div[id="root"] {
   min-height: 100%;
 }
+
 div[id="main"] {
   height:100vh;
 }
 
+/*Top*/
 div.top {
   /*padding-top: 50px ;*/
   text-align: center;
-  height: 25vh;
+  height: 20vh;
   width: auto;
 }
+
+/*Middle*/
 
 div.middle {
   height: 58vh;
   width: auto;
 }
+
+div[id="middle"] {
+  float: left;
+  height: 100%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+div.urls {
+  width: 23%;
+}
+
+div[id="cases"] {
+  height: 46%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border-radius: 25pt;
+}
+div.best-case {
+  background-color: darkseagreen;
+}
+
+div.worst-case {
+  background-color: #FE9B9B;
+}
+
+div.map {
+  width: 48%;
+}
+div.cases {
+  width: 23%;
+}
+
+
+
+
+
 
 
 div.bottom {
