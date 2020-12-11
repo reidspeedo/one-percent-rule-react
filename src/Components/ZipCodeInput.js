@@ -7,7 +7,7 @@ class ZipCodeInput extends Component {
                 <input type="text" className="form-control" placeholder="Zip Code"
                        aria-label="Recipient's username" aria-describedby="basic-addon2"></input>
                     <div className="input-group-append">
-                        <button className="btn btn-outline-secondary" type="button">Search</button>
+                        <button className="btn btn-outline-secondary" type="button">Add</button>
                     </div>
             </div>
         );
