@@ -64,7 +64,7 @@ div.urls {
 div.zipinput {
   width: 50%;
   margin: auto;
-  margin-top: 6%;
+  /*margin-top: 6%;*/
 }
 
 div.links {
