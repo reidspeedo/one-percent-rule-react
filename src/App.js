@@ -10,10 +10,14 @@ class onePercent extends React.Component {
             <NavBar></NavBar>
             <div class="top">
                 <h2>onePercent</h2>
-                <ZipCodeInput></ZipCodeInput>
+                <div class="zipinput">
+                    <ZipCodeInput></ZipCodeInput>
+                </div>
             </div>
             <div class="middle">
-                <div id="middle" class="urls"></div>
+                <div id="middle" class="urls">
+                    <div id="urls" class="links"></div>
+                </div>
                 <div id="middle" class="map"></div>
                 <div id="middle" class="cases">
                     <div id="cases" class="best-case"></div>
@@ -21,6 +25,17 @@ class onePercent extends React.Component {
                 </div>
             </div>
             <div class="bottom">
+                <div class="buttons">
+                    <div class="button">
+                        <button type="button" className="btn btn-warning btn-lg">One Percent Rule</button>
+                    </div>
+                    <div class="button">
+                        <button type="button" className="btn btn-primary btn-lg">Two Percent Rule</button>
+                    </div>
+                    <div class="button">
+                        <button type="button" className="btn btn-secondary btn-lg">50  Percent Rule</button>
+                    </div>
+                </div>
             </div>
         </div>
     )

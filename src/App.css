@@ -5,6 +5,10 @@ html, body {
   margin: 0;
 }
 
+div {
+  /*border: 1px solid blue;*/
+}
+
 .App {
   text-align: center;
   height: 100px;
@@ -25,10 +29,6 @@ img[alt='logo-graphic'] {
   margin-bottom: 3px;
 }
 
-div {
-  border: 1px solid blue;
-}
-
 div[id="root"] {
   min-height: 100%;
 }
@@ -39,14 +39,12 @@ div[id="main"] {
 
 /*Top*/
 div.top {
-  /*padding-top: 50px ;*/
   text-align: center;
   height: 20vh;
   width: auto;
 }
 
 /*Middle*/
-
 div.middle {
   height: 58vh;
   width: auto;
@@ -61,6 +59,20 @@ div[id="middle"] {
 
 div.urls {
   width: 23%;
+}
+
+div.zipinput {
+  width: 50%;
+  margin: auto;
+  margin-top: 6%;
+}
+
+div.links {
+  background-color: lightsteelblue;
+  height: 92%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  border-radius: 25pt;
 }
 
 div[id="cases"] {
@@ -84,15 +96,18 @@ div.cases {
   width: 23%;
 }
 
-
-
-
-
-
-
 div.bottom {
   height: 10vh;
   width: auto;
+}
+
+div.buttons {
+  text-align:center;
+}
+div.button {
+  display:inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 
 .App-logo {
