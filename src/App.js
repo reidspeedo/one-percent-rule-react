@@ -5,6 +5,7 @@ import Map from "./Components/Map"
 import Properties from "./Components/Properties";
 
 class onePercent extends React.Component {
+
   render() {
     return (
         <div id="main">
