@@ -9,11 +9,6 @@ div {
   /*border: 1px solid blue;*/
 }
 
-h2 {
-  text-align: center;
-  vertical-align: center;
-}
-
 .App {
   text-align: center;
   height: 100px;
@@ -21,6 +16,10 @@ h2 {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+h1{
+  margin-top:10pt;
 }
 
 img[alt='logo'] {
@@ -47,7 +46,17 @@ div.top {
   text-align: center;
   height: 20vh;
   width: auto;
+  position: relative;
 }
+
+div.zipinput {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  /*bottom: 0px;*/
+  /*position: absolute;*/
+}
+
 
 /*Middle*/
 div.middle {
@@ -66,15 +75,10 @@ div.urls {
   width: 23%;
 }
 
-div.zipinput {
-  width: 50%;
-  margin: auto;
-  margin-top: 4%;
-}
-
 div.links {
   background-color: lightsteelblue;
-  height: 92%;
+  /*height: 92%;*/
+  height: 54vh;
   margin-top: 4%;
   margin-bottom: 4%;
   border-radius: 25pt;

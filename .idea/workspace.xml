@@ -6,12 +6,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ZipCodeInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ZipCodeInput.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +70,9 @@
       <option name="presentableId" value="Default" />
       <updated>1606801495292</updated>
       <workItem from="1606801496387" duration="1719000" />
-      <workItem from="1607571553885" duration="15011000" />
+      <workItem from="1607571553885" duration="17254000" />
+      <workItem from="1607744095596" duration="38000" />
+      <workItem from="1607802618709" duration="3111000" />
     </task>
     <servers />
   </component>

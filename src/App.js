@@ -1,8 +1,8 @@
 import './App.css';
 import React from "react"
 import NavBar from "./Components/NavBar"
-import ZipCodeInput from "./Components/ZipCodeInput"
 import Map from "./Components/Map"
+import Properties from "./Components/Properties";
 
 class onePercent extends React.Component {
   render() {
@@ -10,15 +10,12 @@ class onePercent extends React.Component {
         <div id="main">
             <NavBar></NavBar>
             <div class="top">
-                <h2>onePercent</h2>
-                <div class="zipinput">
-                    <ZipCodeInput></ZipCodeInput>
-                </div>
+                <h1>onePercent</h1>
+                <p>Welcome to zee webpage.</p>
+                <p>Aren't ya glad your here?</p>
             </div>
             <div class="middle">
-                <div id="middle" class="urls">
-                    <div id="urls" class="links"></div>
-                </div>
+                <Properties></Properties>
                 <div id="middle" class="map">
                     <Map></Map>
                 </div>
