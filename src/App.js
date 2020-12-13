@@ -3,6 +3,7 @@ import React from "react"
 import NavBar from "./Components/NavBar"
 import Map from "./Components/Map"
 import Properties from "./Components/Properties";
+import logographic from "./Images/logo-alone.png";
 
 class onePercent extends React.Component {
 
@@ -11,9 +12,10 @@ class onePercent extends React.Component {
         <div id="main">
             <NavBar></NavBar>
             <div class="top">
-                <h1>onePercent</h1>
-                <p>Welcome to zee webpage.</p>
-                <p>Aren't ya glad your here?</p>
+                <img class='logo' src={logographic} alt="logo-graphic"/>
+                <h1 class='logo'>nePercent</h1>
+                {/*<p>Welcome to zee webpage.</p>*/}
+                {/*<p>Aren't ya glad your here?</p>*/}
             </div>
             <div class="middle">
                 <Properties></Properties>

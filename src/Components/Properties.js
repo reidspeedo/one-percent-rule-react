@@ -20,8 +20,9 @@ class Properties extends Component {
         const url = "http://127.0.0.1:8000/properties/" + this.state.value
         axios.get(url)
             .then(response => {
+                console.log(response.data)
                 this.setState({
-                    properties: response.data
+                    properties: this.state.properties.concat(response.data)
                 });
             })
             .catch(error => {console.log(error)})
@@ -34,7 +35,7 @@ class Properties extends Component {
                         <input type="text" className="form-control" placeholder="Zip Code"
                                aria-label="Recipient's username" aria-describedby="basic-addon2" onChange={this.handleChange}></input>
                         <div className="input-group-append">
-                            <button className="btn btn-outline-secondary" type="button" onClick={this.handleAdd}>Add</button>
+                            <button className="btn btn-outline-secondary" type="button" onClick={this.handleAdd}>Retrieve</button>
                         </div>
                     </div>
                 </div>
