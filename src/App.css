@@ -88,6 +88,11 @@ div.urls {
   width: 23%;
 }
 
+div.overflow-auto {
+  /*padding-top: 20pt;*/
+  /*height:40vh;*/
+}
+
 div.links {
   background-color: lightsteelblue;
   /*height: 92%;*/
@@ -126,7 +131,7 @@ div.bottom {
 }
 
 div.buttons {
-  text-align:center;
+  /*text-align:center;*/
 }
 div.button {
   display:inline-block;

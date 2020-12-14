@@ -24,7 +24,7 @@ class onePercent extends React.Component {
                 </div>
                 <div id="middle" class="cases">
                     <div id="cases" class="best-case"></div>
-                    <div id="cases" className="worst-case"></div>
+                    <div id="cases" class="worst-case"></div>
                 </div>
             </div>
             <div class="bottom">
