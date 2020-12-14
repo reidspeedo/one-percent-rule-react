@@ -12,6 +12,7 @@ class Properties extends Component {
         this.handleAdd = this.handleAdd.bind(this)
         this.handleChange = this.handleChange.bind(this)
         this.clearProperties = this.clearProperties.bind(this)
+        this.saveProperties = this.saveProperties.bind(this)
     }
 
     handleChange(event) {
@@ -21,6 +22,25 @@ class Properties extends Component {
     clearProperties() {
         this.setState({properties: []});
     }
+
+    saveProperties() {
+        var property;
+        for (property of this.state.properties) {
+        const url = "http://127.0.0.1:8000/properties"
+        axios.post(url,{
+            address: property.address,
+            postal_code: property.postal_code,
+            price: property.price,
+            rent_estimate: property.rent_estimate,
+            url: property.url
+        })
+            .then(response => {
+                console.log(response.data)
+                });
+            }
+        }
+
+
 
     handleAdd() {
         const url = "http://127.0.0.1:8000/properties/" + this.state.value
@@ -61,7 +81,7 @@ class Properties extends Component {
                     </div>
                     <div className="btn-group" role="group" aria-label="Basic example">
                         <button onClick={this.clearProperties} type="button" className="btn btn-secondary">Clear</button>
-                        <button type="button" className="btn btn-secondary">Save</button>
+                        <button onClick={this.saveProperties} type="button" className="btn btn-secondary">Save</button>
                     </div>
                 </div>
 
