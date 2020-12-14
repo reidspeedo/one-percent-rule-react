@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import Property from "./Property";
 
 class Properties extends Component {
     constructor(props) {
@@ -40,10 +41,16 @@ class Properties extends Component {
                     </div>
                 </div>
                 <div id="middle" className="urls">
+                    <div class="overflow-auto">
                     <div id="urls" className="links">
-                        <ul>
-                            {this.state.properties.map(property => <li>{property.url}</li>)}
-                        </ul>
+
+                        {
+                            this.state.properties.map(
+                            property => <Property url={property.url} address={property.address} postal_code={property.postal_code} price={property.price} rent_estimate={property.rent_estimate}/>
+                            )
+                        }
+
+                    </div>
                     </div>
                 </div>
             </div>

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65f66c90-a309-4813-bee4-c5320eb200c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Property.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Properties.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <workItem from="1606801496387" duration="1719000" />
       <workItem from="1607571553885" duration="17254000" />
       <workItem from="1607744095596" duration="38000" />
-      <workItem from="1607802618709" duration="16520000" />
+      <workItem from="1607802618709" duration="20020000" />
     </task>
     <servers />
   </component>
